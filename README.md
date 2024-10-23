@@ -1,104 +1,81 @@
-# Frontend Mentor - Recipe page solution
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Kokopanda | Recipe page</title>
+  <link rel="stylesheet" href="main.css">
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+</head>
+<body>
+  <div class="card">
+   <img src="assets/images/image-omelette.jpeg" alt="Delicious Omelette">
+  <div class= "ingredients">
+    <h1 class="main-heading">Simple Omlette Recipe </h1>
+    <h1 class="content">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</h1>
+    <div style="border-top: 1px solid black;"></div>
+      <h2 class="bold-content">Preperation Time </h2>
+    <div class="list1">
+      <ul>
+        <li><span class="sub-content">Total:</span> Approximantly 10 minutes</li>
+        <li><span class="sub-content">Preperation:</span> Approximantly 5 minutes</li>
+        <li><span class="sub-content">Cooking:</span> Approximantly 5 minutes</li>
+      </ul>
+      <hr>
+    </div>
+    <h2 class="bold-content">Ingredients </h2>
+    
+  <div class="list2">
+    <ul>
+      <li>2-3 large eggs</li>
+      <li>Salt, to taste</li>
+      <li>Pepper, to taste</li>
+      <li>1 tablespoon of butter or oil</li>
+      <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+    </ul>
+    <hr>
+  </div>
+  <div class="instructions">
+    <h2 class="bold-content">Instructions </h2>
+    <ol class="list2">
+      <li><span class="sub-content">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+      <li><span class="sub-content">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+      <li><span class="sub-content">Cook the Omlette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+      <li><span class="sub-content">Add fillings (Optional):</span> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+      <li><span class="sub-content">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+      <li><span class="sub-content">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+    </ol>
+    <hr>
+  </div>
+  <div class="Nutrition">
+    <h2 class="bold-content">Nutrition </h2>
+    <h2 class="additional-content"> The table below shows nutritional values per serving without the additional fillings.</h2>
+    <table>
+      <tr>
+        <td>Calories:</td>
+        <td class="bold-data">277kcal</td>
+      </tr>
 
-## Table of contents
+      <tr>
+        <td>Carbs:</td>
+        <td class="bold-data">0g</td>
+      </tr>
+      
+      <tr>
+        <td>Protein:</td>
+        <td class="bold-data">20g</td>
+      </tr>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+      <tr>
+        <td>Fat:</td>
+        <td class="bold-data">22g</td>
+      </tr>
+    </table>
+  </div>
+</div>
+  
+    
+</div>
+</body>
+</html>

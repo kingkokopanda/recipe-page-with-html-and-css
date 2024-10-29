@@ -18,10 +18,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Kokopanda|Simple Omlette Recipe](https://kingkokopanda.github.io/recipe-page-with-html-and-css/)
 
-## My process
 
 ### Built with
 
